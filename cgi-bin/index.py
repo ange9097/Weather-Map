@@ -398,15 +398,275 @@ $(document).ready(function() {'''
 response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['AL']['lat'] + "," + states_caps['AL']['long'])
 data = json.load(response)
 if (data[u'currently'][u'temperature'] <= 10):
-    print '''$('#AL').css('fill', 'blue')'''
+    print '''   $('#AL').css('fill', 'blue')'''
 elif (data[u'currently'][u'temperature'] <= 30):
-    print '''$('#AL').css('fill', 'cyan')'''
+    print '''   $('#AL').css('fill', 'cyan')'''
 elif (data[u'currently'][u'temperature'] <= 50):
-    print '''$('#AL').css('fill', 'Green')'''
+    print '''   $('#AL').css('fill', 'Green')'''
 elif (data[u'currently'][u'temperature'] <= 80):
-    print '''$('#AL').css('fill', 'Orange')'''
+    print '''   $('#AL').css('fill', 'Orange')'''
 else:
-    print '''$('#AL').css('fill', 'Red')'''
+    print '''   $('#AL').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['AK']['lat'] + "," + states_caps['AK']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#AK').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#AK').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#AK').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#AK').css('fill', 'Orange')'''
+else:
+    print '''   $('#AK').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['AZ']['lat'] + "," + states_caps['AZ']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#AZ').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#AZ').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#AZ').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#AZ').css('fill', 'Orange')'''
+else:
+    print '''   $('#AZ').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['AR']['lat'] + "," + states_caps['AR']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#AR').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#AR').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#AR').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#AR').css('fill', 'Orange')'''
+else:
+    print '''   $('#AR').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['CA']['lat'] + "," + states_caps['CA']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#CA').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#CA').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#CA').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#CA').css('fill', 'Orange')'''
+else:
+    print '''   $('#CA').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['CO']['lat'] + "," + states_caps['CO']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#CO').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#CO').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#CO').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#CO').css('fill', 'Orange')'''
+else:
+    print '''   $('#CO').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['CT']['lat'] + "," + states_caps['CT']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#CT').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#CT').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#CT').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#CT').css('fill', 'Orange')'''
+else:
+    print '''   $('#CT').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['DE']['lat'] + "," + states_caps['DE']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#DE').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#DE').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#DE').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#DE').css('fill', 'Orange')'''
+else:
+    print '''   $('#DE').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['FL']['lat'] + "," + states_caps['FL']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#FL').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#FL').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#FL').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#FL').css('fill', 'Orange')'''
+else:
+    print '''   $('#FL').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['GA']['lat'] + "," + states_caps['GA']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#GA').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#GA').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#GA').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#GA').css('fill', 'Orange')'''
+else:
+    print '''   $('#GA').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['HI']['lat'] + "," + states_caps['HI']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#HI').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#HI').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#HI').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#HI').css('fill', 'Orange')'''
+else:
+    print '''   $('#HI').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['ID']['lat'] + "," + states_caps['ID']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#ID').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#ID').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#ID').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#ID').css('fill', 'Orange')'''
+else:
+    print '''   $('#ID').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['IL']['lat'] + "," + states_caps['IL']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#IL').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#IL').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#IL').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#IL').css('fill', 'Orange')'''
+else:
+    print '''   $('#IL').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['IN']['lat'] + "," + states_caps['IN']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#IN').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#IN').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#IN').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#IN').css('fill', 'Orange')'''
+else:
+    print '''   $('#IN').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['IA']['lat'] + "," + states_caps['IA']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#IA').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#IA').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#IA').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#IA').css('fill', 'Orange')'''
+else:
+    print '''   $('#IA').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['KS']['lat'] + "," + states_caps['KS']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#KS').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#KS').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#KS').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#KS').css('fill', 'Orange')'''
+else:
+    print '''   $('#KS').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['KY']['lat'] + "," + states_caps['KY']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#KY').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#KY').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#KY').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#KY').css('fill', 'Orange')'''
+else:
+    print '''   $('#KY').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['LA']['lat'] + "," + states_caps['LA']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#LA').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#LA').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#LA').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#LA').css('fill', 'Orange')'''
+else:
+    print '''   $('#LA').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['ME']['lat'] + "," + states_caps['ME']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#ME').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#ME').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#ME').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#ME').css('fill', 'Orange')'''
+else:
+    print '''   $('#ME').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['MD']['lat'] + "," + states_caps['MD']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#MD').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#MD').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#MD').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#MD').css('fill', 'Orange')'''
+else:
+    print '''   $('#MD').css('fill', 'Red')'''
+
+response = urllib2.urlopen("https://api.darksky.net/forecast/fe44cf5e32f4b1f31c96662e4feec5d4/" + states_caps['MO']['lat'] + "," + states_caps['MO']['long'])
+data = json.load(response)
+if (data[u'currently'][u'temperature'] <= 10):
+    print '''   $('#MO').css('fill', 'blue')'''
+elif (data[u'currently'][u'temperature'] <= 30):
+    print '''   $('#MO').css('fill', 'cyan')'''
+elif (data[u'currently'][u'temperature'] <= 50):
+    print '''   $('#MO').css('fill', 'Green')'''
+elif (data[u'currently'][u'temperature'] <= 80):
+    print '''   $('#MO').css('fill', 'Orange')'''
+else:
+    print '''   $('#MO').css('fill', 'Red')'''
 
 print '''});
 </script>'''
